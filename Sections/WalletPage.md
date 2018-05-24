@@ -5,7 +5,7 @@ The PayFabric hosted wallet page is used for embedding the wallet page into your
 
 Before embedding the wallet page, please ensure the following:
 
-1. Generate a [Security Token](https://github.com/PayFabric/APIs/blob/v2/Sections/Transactions.md#security-token).  Assume the token value is @token.
+1. Generate a [Security Token](/Sections/Security%20Token.md).  Assume the token value is @token.
 2. If updating, retrieve the unique card Id, see our [API documentation](https://github.com/PayFabric/APIs/blob/v2/Sections/Wallets.md#retrieve-credit-cards--echecks) for how.  Assume the card Id is @cardID.
  
 Create a Credit Card / eCheck
