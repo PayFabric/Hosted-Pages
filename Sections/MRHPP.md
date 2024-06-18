@@ -42,7 +42,7 @@ Upon activating InterPayments to enable surcharge support, PayFabric will reques
 
 Please note that the disclousure message is required by InterPayments.
 
-![InterPayments_MRHPP](https://github.com/PayFabric/Hosted-Pages/blob/master/Sections/InterPayments_MRHPP.png "InterPayments_MRHPP") 
+![InterPayments_MRHPP_NoTip](https://github.com/PayFabric/Hosted-Pages/blob/master/Sections/InterPayments_MRHPP_NoTip.png "InterPayments_MRHPP_NoTip") 
 
 
 Mobile Hosted Payment Page with Tip 
