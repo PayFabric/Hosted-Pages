@@ -16,13 +16,19 @@ https://sandbox.payfabric.com/Payment/Web/Transaction/Process?key={@TRXKEY}&toke
 
 ![Hosted payment page](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/HostedPaymentPage.png "Hosted payment page") 
 
-Hosted Payment Page with Surcharge
+Hosted Payment Page with PayFabric calculated Surcharge
 ===================================
-PayFabric provide the ability for merchants to support Surcharge in order to pass on their processing cost to the end customers for EVO gateway.
+PayFabric provide the ability for merchants to support Surcharge in order to pass on their processing cost to the end customers for EVO/Global Payments gateway.
 1. PayFabric’s hosted payment page added 3 additional fields to support surcharge: Surcharge Rate, Surcharge Amount and Final Amount. 
 2. By default, these fields are hidden and will only available if Surcharge Rate is enabled on gateway profile setting for the in-used gateway profile. Surcharge Amount, Surcharge Rate and Final Amount will be read-only as they’re calculated fields by PayFabric based on the provided rate. 
 3. It’s up to 3rd party application to design and structure these 3 fields using CSS/JS to make it fits on your application’s UI and UX. 
 ![HostedPaymentPageWithSurcharge](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/HostedPaymentPageWithSurcharge.png "HostedPaymentPageWithSurcharge") 
+
+Hosted Payment Page with InterPayments advanced Surcharge
+===================================
+Upon activating InterPayments to enable surcharge support, PayFabric will request a surcharge fee after the required fields are populated on the payment page.
+Please note that the disclouse message is required by InterPayments.
+![InterPayments_HPP](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/InterPayments_HPP.png "InterPayments_HPP") 
 
 Hosted Payment Page for Gift Card
 ===================================
