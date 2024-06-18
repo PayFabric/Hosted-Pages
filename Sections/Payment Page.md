@@ -26,7 +26,7 @@ PayFabric provide the ability for merchants to support Surcharge in order to pas
 
 Hosted Payment Page with InterPayments advanced Surcharge
 ===================================
-Upon activating InterPayments to enable surcharge support, PayFabric will request a surcharge fee after the required fields are populated on the payment page.
+Upon activating InterPayments to enable surcharge support, PayFabric will request a surcharge fee after the required fields (card number and billing zip) are populated on the payment page.
 
 Please note that the disclousure message is required by InterPayments.
 ![InterPayments_HPP](https://github.com/PayFabric/Hosted-Pages/blob/master/Sections/InterPayments_HPP.png "InterPayments_HPP") 
