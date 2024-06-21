@@ -27,28 +27,19 @@ PayFabric mobile hosted payment page accepts the below query string parameters t
 |UseDefaultWallet|When the value is `0`, then the default wallet won't load out while open hosted payment page. And if you set the value as `1`, then PayFabric will load the default wallet on hosted payment page by default.  Default value is `1`.|
 
 
-Mobile Hosted Payment Page with PayFabric gateway Surcharge
+Mobile Hosted Payment Page with Surcharge
 ===================================
 PayFabric provides the ability for merchants to support surcharge on Mobile Hosted Payment page in order to pass on processing cost to the end customers for EVO gateway.
 Only when customer is using credit card, PayFabric will shows the surcharge rate and surcharge amount on Mobile Hosted Payment page.
 
-Surcharge amount = Transaction amount x Surcharge rate
+Surcharge amount = (Transaction amount + Tip amount) x Surcharge rate
 
-![GatewaySurcharge_MRHPP](https://github.com/PayFabric/Hosted-Pages/blob/master/Sections/GatewaySurcharge_MRHPP.png "GatewaySurcharge_MRHPP") 
-
-Mobile Hosted Payment Page with InterPayments advanced Surcharge
-===================================
-Upon activating InterPayments to enable surcharge support, PayFabric will request a surcharge fee after the required fields (card number and billing zip) are populated on the payment page.
-
-Please note that the disclousure message is required by InterPayments.
-
-![InterPayments_MRHPP_NoTip](https://github.com/PayFabric/Hosted-Pages/blob/master/Sections/InterPayments_MRHPP_NoTip.png "InterPayments_MRHPP_NoTip") 
+![Mobile Hosted payment page With Surcharge Tip](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/MobileHostedPaymentPageWithSurchargeTip.png "Mobile Hosted payment page With Surcharge Tip")
 
 
 Mobile Hosted Payment Page with Tip 
 ===================================
 PayFabric provides the ability for merchants to support Tip on Mobile Hosted Payment page. To enable Tip, please refer the [PayFabric Settings](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/PayFabric%20Settings.md#transaction-options)
-**Note** PayFabric does not allow to process transactions with both Tip and Surcharge.
 
 ![Mobile Hosted payment page With Tip](https://raw.githubusercontent.com/PayFabric/Portal/master/PayFabric/Sections/Screenshots/MobileHostedPaymentPageWithTip.png "Mobile Hosted payment page With Tip")
 
