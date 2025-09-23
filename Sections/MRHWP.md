@@ -35,7 +35,7 @@ PayFabric hosted wallet page accepts the query string parameters below. Separate
 >
 | QueryString| Description | 
 | :------------- | :------------- | 
-|Country=&Street1=&Street2=&Street3=<br/>&City=&State=&Zip=&Email=&Phone= |This query string can pass initial billing address information|
+|Country=&Street1=&Street2=<br/>&City=&State=&Zip= |This query string can pass initial billing address information|
 |ThemeName|This parameter is to support 3rd party dynamically passing into the theme name via query string. If the value is an existing theme name, then page will use this theme; If the value is a nonexistent theme name, then the page will use the device default theme.|
 |UseBluefin|This parameter will take affect when [BlueFin Profile](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Bluefin.md) get enabled. When the value is '0', only regular keyboard entry for the credit card is available, when the value is `1`, only encryption key entry via Bluefin device for the credit card is available, when the value is `2`, both regular keyboard & encryption key entry for the credit card is available.|
 |TrxInitiation|	This parameter specifies the wallet creation/updating initiated by the Merchant or Customer.|
