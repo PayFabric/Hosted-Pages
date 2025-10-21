@@ -40,4 +40,4 @@ PayFabric hosted wallet page accepts the query string parameters below. Separate
 |UseBluefin|This parameter will take affect when [BlueFin Profile](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Bluefin.md) get enabled. When the value is '0', only regular keyboard entry for the credit card is available, when the value is `1`, only encryption key entry via Bluefin device for the credit card is available, when the value is `2`, both regular keyboard & encryption key entry for the credit card is available.|
 |TrxInitiation|	This parameter specifies the wallet creation/updating initiated by the Merchant or Customer.|
 |AcceptTender|This query string specifies the wallet tender when opening the responsive hosted create wallet page. Available values are 'CreditCard' and 'ECheck'.|
-|language|This query string specifies the display language when opening the responsive hosted create wallet page. Available values are 'en-us' for English and 'fr-ca' for French.|
+|language|This query string specifies the display language when opening the responsive hosted create/edit wallet page. Available values are 'en-us' for English and 'fr-ca' for French.|
