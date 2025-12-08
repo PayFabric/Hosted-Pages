@@ -25,6 +25,12 @@ PayFabric mobile hosted payment page accepts the below query string parameters t
 |UseBluefin|This parameter will take affect when [BlueFin Profile](https://github.com/PayFabric/Portal/blob/master/PayFabric/Sections/Bluefin.md) get enabled. When the value is `0`, only regular keyboard entry for credit card is available, when the value is `1`, only encryption key entry via Bluefin device for credit card is available, when the value is `2`, both regular keyboard & encryption key entry for credit card is available.|
 |Accepttender|This parameter is to specify the accepted payment methods, the list of methods is: `CreditCard`, `ECheck`, `GooglePay`, `ApplePay`, and `PayPal`, If accept multiple payment methods, then seperate the methods with <kbd><samp>,</samp></kbd>.|
 |UseDefaultWallet|When the value is `0`, then the default wallet won't load out while open hosted payment page. And if you set the value as `1`, then PayFabric will load the default wallet on hosted payment page by default.  Default value is `1`.|
+|Country|This query string can pass initial country in bill to address, this query string only works on the hosted payment page when there is no selected wallet record.|
+|State|This query string can pass initial state in bill to address, this query string only works on the hosted payment page when there is no selected wallet record.|
+|City|This query string can pass initial city in bill to address, this query string only works on the hosted payment page when there is no selected wallet record.|
+|Zip|This query string can pass initial zip in bill to address, this query string only works on the hosted payment page when there is no selected wallet record.|
+|Street1|This query string can pass initial street inforamtion in bill to address, this query string only works on the hosted payment page when there is no selected wallet record.|
+|Street2|This query string can pass initial second street information in bill to address, this query string only works on the hosted payment page when there is no selected wallet record.|
 |Language|This query string specifies the display language when opening the responsive hosted payment page. Available values are 'en-us' for English and 'fr-ca' for French. By default or if passed in unsupported language, it will display in English.|
 
 
